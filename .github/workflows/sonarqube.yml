@@ -1,0 +1,18 @@
+on: push
+name: Sonarqube
+jobs:
+  sonarQubeTrigger:
+    name: SonarQube Trigger
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+        with:
+          fetch-depth: 0
+      - name: SonarQube Scan
+        uses: sonarsource/sonarqube-scan-action@master
+        with:
+          args: >
+            -Dsonar.branch.name=${{ github.ref_name }}
+        env:
+          SONAR_TOKEN: "0a1d27a1ecf1a154f50cdab5fb8b84868453873a"
+          SONAR_HOST_URL: "https://pmpl.cs.ui.ac.id/sonarqube"

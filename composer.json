@@ -1,0 +1,44 @@
+{
+  "name": "skijasi/lms-theme",
+  "version": "0.1.0",
+  "description": "ilma theme is official free theme for skijasi LMS module",
+  "keywords": [
+    "laravel",
+    "admin",
+    "panel",
+    "dashboard",
+    "pwa",
+    "vue",
+    "generator",
+    "lms",
+    "skijasi"
+  ],
+  "license": "MIT",
+  "homepage": "https://skijasi-ilma.uatech.co.id/",
+  "support": {
+    "issues": "https://github.com/nadzorservera-croatia/skijasi-ilma-theme/issues",
+    "discussion": "https://github.com/nadzorservera-croatia/skijasi-ilma-theme/discussions",
+    "source": "https://github.com/nadzorservera-croatia/skijasi-ilma-theme"
+  },
+  "authors": [
+    {
+      "name": "SKIJASI",
+      "email": "hello@skijasiasd.com"
+    }
+  ],
+  "require": {
+    "inertiajs/inertia-laravel": "^0.5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "NadzorServera\\Skijasi\\Theme\\LMSTheme\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "NadzorServera\\Skijasi\\Theme\\LMSTheme\\Providers\\LMSThemeProvider"
+      ]
+    }
+  }
+}

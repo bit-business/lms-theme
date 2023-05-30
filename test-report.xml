@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\CreationLayout.spec.js">
+    <testCase name="CreationLayout when loaded and topic title and content type is NOT given should renders" duration="604"/>
+    <testCase name="CreationLayout when loaded and topic title and content type is given should renders" duration="246"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\CreateClassMaterial.spec.js">
+    <testCase name="CreateCourseMaterial when loaded should renders" duration="1310"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\login.spec.js">
+    <testCase name="Login when loaded has all of the required elements" duration="1007"/>
+    <testCase name="Login when loaded test data input for login component" duration="518"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\CourseMaterial.spec.js">
+    <testCase name="CourseMaterial when loaded and description is NOT given should renders" duration="945"/>
+    <testCase name="CourseMaterial when loaded and description is given should renders" duration="498"/>
+    <testCase name="CourseMaterial when loaded header comment is exist should renders" duration="294"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\classwork.spec.js">
+    <testCase name="ClassworkPage when loaded and current user is course creator should renders" duration="753"/>
+    <testCase name="ClassworkPage when loaded and current user is not course creator should renders" duration="179"/>
+    <testCase name="ClassworkPage when loaded and lesson material exists should renders" duration="201"/>
+    <testCase name="ClassworkPage when loaded and lesson material does not exist should renders" duration="122"/>
+    <testCase name="CreateTopic when loaded should renders" duration="243"/>
+    <testCase name="CreateTopic UpdateTopic when loaded should renders" duration="254"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\announcement\AnnouncementContent.spec.js">
+    <testCase name="AnnouncementContent when loaded and when not editing and when announcement belong to current user should renders" duration="596"/>
+    <testCase name="AnnouncementContent when loaded and when not editing and when announcement is not belong to current user should renders" duration="122"/>
+    <testCase name="AnnouncementContent when loaded and when editing announcement should renders" duration="1571"/>
+    <testCase name="AnnouncementContent when loaded and when editing comment should renders" duration="390"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\404.spec.js">
+    <testCase name="JoinCoursePage when loaded should renders" duration="292"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\course\create.spec.js">
+    <testCase name="CreateCourse.vue should render correct forms" duration="828"/>
+    <testCase name="CreateCourse.vue when user is not authenticated should redirect to login page" duration="495"/>
+    <testCase name="CreateCourse.vue when user is authenticated should not redirect anywhere" duration="298"/>
+    <testCase name="CreateCourse.vue when all fields are filled form should be valid" duration="366"/>
+    <testCase name="CreateCourse.vue when submitted successfully should redirect to course page" duration="384"/>
+    <testCase name="CreateCourse.vue when submission is failed should display snackbar with error message" duration="381"/>
+    <testCase name="CreateCourse.vue when cancel button is clicked should redirect to home page" duration="398"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\register.spec.js">
+    <testCase name="Register when loaded has all of the required elements" duration="884"/>
+    <testCase name="Register when sending request should show loading on button" duration="466"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\announcement\AnnouncementCard.spec.js">
+    <testCase name="AnnouncementCard when loaded and when no comment exist should renders" duration="528"/>
+    <testCase name="AnnouncementCard when loaded and when comment exist comments should be rendered" duration="436"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\ViewCourse.spec.js">
+    <testCase name="ViewCourse Component when loaded should renders" duration="347"/>
+    <testCase name="ViewCourse Component when user is not authenticated should redirect to login page" duration="147"/>
+    <testCase name="ViewCourse Component when user is authenticated should not redirect anywhere" duration="160"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\copyClassCode.spec.js">
+    <testCase name="Class Code Widget when loaded should renders" duration="735"/>
+    <testCase name="Class Code Widget When click should call function" duration="346"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\Sidebar.spec.js">
+    <testCase name="App Layout.vue should contains navigation drawer" duration="311"/>
+    <testCase name="App Layout.vue should contains user&apos;s name" duration="229"/>
+    <testCase name="App Layout.vue should fetch courses data" duration="138"/>
+    <testCase name="App Layout.vue should contains logout button" duration="155"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\ListComment.spec.js">
+    <testCase name="ListComment when loaded and when comment exist should renders" duration="366"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\announcement\CreateAnnouncement.spec.js">
+    <testCase name="CreateAnnouncement when loaded should renders" duration="537"/>
+    <testCase name="CreateAnnouncement when initial form is clicked should hide and load components" duration="387"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\CourseCard.spec.js">
+    <testCase name="CourseCard Component when loaded should renders" duration="219"/>
+    <testCase name="CourseCard Component when course card clicked should redirect to course page" duration="90"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\AppLayout.spec.js">
+    <testCase name="AppLayout.vue should contains sidebar" duration="185"/>
+    <testCase name="AppLayout.vue should contains snackbar" duration="68"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\JoinClass.spec.js">
+    <testCase name="JoinCoursePage when loaded should renders" duration="386"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\AddCourseCard.spec.js">
+    <testCase name="AddCourseCard Component when loaded should renders" duration="239"/>
+    <testCase name="AddCourseCard Component when create button clicked should redirect to create course page" duration="196"/>
+    <testCase name="AddCourseCard Component when join button clicked should redirect to join course page" duration="76"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\announcement\AnnouncementContainer.spec.js">
+    <testCase name="AnnouncementContainer when loaded should renders" duration="443"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\announcement\AnnouncementPage.spec.js">
+    <testCase name="Announcement when loaded should renders" duration="435"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\example.spec.js">
+    <testCase name="displays message should renders" duration="177"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\PeopleInCourse.spec.js">
+    <testCase name="PeopleInCourse when loaded should renders" duration="116"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\notAuthenticated.spec.js">
+    <testCase name="Not Authenticated Guard when not authenticated should pass" duration="6"/>
+    <testCase name="Not Authenticated Guard when authenticated should redirect to homepage" duration="0"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\Snackbar.spec.js">
+    <testCase name="App Layout.vue should contains snackbar component" duration="120"/>
+    <testCase name="App Layout.vue should contains snackbar content" duration="49"/>
+  </file>
+  <file path="C:\Users\acer\Downloads\Code\PPL\skijasi-lms-demo\package\skijasi\skijasi-lms-theme\tests\unit\EditCourseMaterial.spec.js">
+    <testCase name="EditCourseMaterial when loaded should renders" duration="535"/>
+  </file>
+</testExecutions>
